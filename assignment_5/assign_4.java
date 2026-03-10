@@ -7,8 +7,8 @@ class A_0 {
 
 class assig_4 extends A_0 {
     assig_4() {
-        System.out.println("B");
         super();
+        System.out.println("B");
     }
 
     static void main(String[] args) {

@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-class Stud {
+class Stud21 {
     String name;
     int roll;
     int marks1, marks2, marks3;
@@ -15,7 +15,7 @@ class Stud {
         System.out.println("Nishant Nahar -- 241551078");
         Scanner sc = new Scanner(System.in);
 
-        Stud s = new Stud();
+        Stud21 s = new Stud21();
         s.inputDetails(sc);
         s.displayDetails();
 

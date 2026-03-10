@@ -2,7 +2,7 @@
  * Write a Java program that accepts student name, roll number, and marks using
  * command line arguments and prints the student result
  */
-class student {
+class Student33 {
     String name;
     int roll;
     int marks;
@@ -14,7 +14,7 @@ class student {
             return;
         }
 
-        student s = new student();
+        Student33 s = new Student33();
         s.name = args[0];
         s.roll = Integer.parseInt(args[1]);
         s.marks = Integer.parseInt(args[2]);
