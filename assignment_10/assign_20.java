@@ -1,10 +1,10 @@
 class Demo20 {
-    synchronized void objLock() {
-        System.out.println("Object lock");
-    }
-
     static synchronized void classLock() {
         System.out.println("Class lock");
+    }
+
+    synchronized void objLock() {
+        System.out.println("Object lock");
     }
 }
 

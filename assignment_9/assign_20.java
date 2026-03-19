@@ -1,4 +1,5 @@
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 
 class as_9_q_20 {
     public static void main(String[] args) throws Exception {

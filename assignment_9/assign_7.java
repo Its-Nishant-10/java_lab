@@ -1,4 +1,5 @@
-import java.io.*;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 class as_9_q_7 {
     public static void main(String[] args) throws IOException {

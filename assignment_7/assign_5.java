@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 class Q5 {
     public static void main(String[] args) {

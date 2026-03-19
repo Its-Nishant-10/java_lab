@@ -1,4 +1,5 @@
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 
 class as_9_q_13 {
     public static void main(String[] args) throws Exception {
@@ -7,10 +8,10 @@ class as_9_q_13 {
         FileInputStream f2 = new FileInputStream("D:\\4th_sem\\java_lab\\assignment_9\\assign_13_1.txt");
         FileOutputStream f3 = new FileOutputStream("D:\\4th_sem\\java_lab\\assignment_9\\assign_13.txt");
         int ch;
-        while((ch = f1.read()) != -1){
+        while ((ch = f1.read()) != -1) {
             f3.write(ch);
         }
-        while((ch = f2.read()) != -1){
+        while ((ch = f2.read()) != -1) {
             f3.write(ch);
         }
         f1.close();

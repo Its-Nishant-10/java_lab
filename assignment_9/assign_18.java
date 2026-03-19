@@ -1,4 +1,4 @@
-import java.io.*;
+import java.io.File;
 import java.util.Scanner;
 
 class as_9_q_18 {

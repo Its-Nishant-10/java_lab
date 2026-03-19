@@ -1,4 +1,5 @@
-import java.io.*;
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
 
 class as_9_q_28 {
     public static void main(String[] args) throws Exception {

@@ -1,4 +1,4 @@
-import java.io.*;
+import java.io.File;
 
 class as_9_q_26 {
     public static void main(String[] args) {

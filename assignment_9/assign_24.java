@@ -1,4 +1,5 @@
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.util.Scanner;
 
 class as_9_q_24 {

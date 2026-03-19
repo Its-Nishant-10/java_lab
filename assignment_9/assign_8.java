@@ -1,4 +1,4 @@
-import java.io.*;
+import java.io.FileInputStream;
 
 class as_9_q_8 {
     public static void main(String[] args) throws Exception {
@@ -10,4 +10,5 @@ class as_9_q_8 {
         else
             System.out.println("File is empty!");
         n.close();
-    }}
+    }
+}

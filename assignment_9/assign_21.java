@@ -1,4 +1,4 @@
-import java.io.*;
+import java.io.PrintWriter;
 
 class as_9_q_21 {
     public static void main(String[] args) throws Exception {

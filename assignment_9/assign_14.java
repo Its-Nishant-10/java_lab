@@ -1,4 +1,4 @@
-import java.io.*;
+import java.io.FileInputStream;
 
 class as_9_q_14 {
     public static void main(String[] args) throws Exception {
@@ -7,18 +7,18 @@ class as_9_q_14 {
         FileInputStream f2 = new FileInputStream("D:\\4th_sem\\java_lab\\assignment_9\\assign_12_1.txt");
         int ch1, ch2;
         boolean same = true;
-        while(true){
+        while (true) {
             ch1 = f1.read();
             ch2 = f2.read();
-            if(ch1 != ch2){
+            if (ch1 != ch2) {
                 same = false;
                 break;
             }
-            if(ch1 == -1) break;
+            if (ch1 == -1) break;
         }
         f1.close();
         f2.close();
-        if(same)
+        if (same)
             System.out.println("Identical");
         else
             System.out.println("Different");
