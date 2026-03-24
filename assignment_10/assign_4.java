@@ -1,6 +1,6 @@
 class InfoThread4 extends Thread {
     public void run() {
-        System.out.println("Name: " + getName() + " | ID: " + getId() + " | Priority: " + getPriority());
+        System.out.println("Name: " + getName() + " | ID: " + threadId() + " | Priority: " + getPriority());
     }
 }
 
